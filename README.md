@@ -1,6 +1,6 @@
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Eye Movement Project <img src='./oneeye.png' width='40'>
+# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Eye Movement Project
 
-<!-- <img src='./oneeye.png' width='30'> ***Try Demo:*** [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/)  -->
+<img src='./oneeye.png' width='30'> ***Try Demo:*** [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/) 
 
 >**Skills Utilized**:
 <ol>
@@ -25,8 +25,7 @@ This was developed during Bootcamp Week 5. Starter code was supplied.
 </ol>
 
 ## How to Run
-<!-- Visit [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/). -->
-This project is not yet deployed, but will be soon.  Stay tuned!
+This accepts mouse inputs, please visit [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/).
 
 ## Future Roadmap
 - [ ] Integrate mouse click event
