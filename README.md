@@ -25,7 +25,7 @@ This was developed during Bootcamp Week 5. Starter code was supplied.
 </ol>
 
 ## How to Run
-This accepts mouse inputs, please visit [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/).
+This accepts mouse inputs.
 
 ## Future Roadmap
 - [ ] Integrate mouse click event
