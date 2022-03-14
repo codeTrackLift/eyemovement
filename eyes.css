@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -18,18 +20,40 @@ body {
     top: 10px;
     left: -30vw;
     width: 200px;
-    height: 160px;
-    border-radius: 80px / 40px;
+    height: 180px;
+    border-radius: 50% 50% 50% 25%;
+    transform: rotate(-50deg);
     background: gold;
-  }
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 500px) {
+    .head {
+        left: -40vw;
+    }
+}
+
+.hair {
+    position: fixed;
+    transform: rotate(50deg);
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50% 50% 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .eyes {
     display: flex;
     justify-content: center;
     align-content: bottom;
-    height: 60px;
-    /* margin: 25vh auto; */
     text-align: center;
+    transform: rotate(50deg);
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
 }
 
 .eye {
@@ -37,11 +61,12 @@ body {
     height: 50px;
     background: #fff;
     display: inline-block;
-    margin: 30px 10px;
+    margin: 50px 10px;
     border-radius: 35% 35% 50% 50%;
     position: relative;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: goldenrod 0px 5px 15px;
+
 }
 
 .ball {
@@ -63,4 +88,32 @@ img {
     height: 2px;
     background-color: white;
     margin-top: 60px;
+}
+
+.nose {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -45px;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50% 10% 50% 10%;
+    transform: rotate(5deg);
+    box-shadow: goldenrod 0px 3px 8px;
+}
+
+.mouth {
+    position: fixed;
+    transform: rotate(52deg);
+    margin-top: 137px;
+    margin-left: -115px;
+    width: 50px;
+    height: 11px;
+    background-color: black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 5px solid lightsalmon;
+    border-bottom: 5px solid lightsalmon;
+    border-radius: 50% 10% 50% 10%;
+    box-shadow: goldenrod 0px 5px 15px;
 }
