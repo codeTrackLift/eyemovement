@@ -15,7 +15,7 @@ This was developed during Bootcamp Week 5. Starter code was supplied for one eye
 
 >**Assignment Objectives**:
 <ol>
-    <li>Ensure the 'ball' element follows mouse movement to simulate 'eye movement'</li>
+    <li>Ensure the 'pupil' follows mouse movement to simulate 'eye movement'</li>
     <li>Add a second eye and ensure it follows mouse movement as well</li>
 </ol>
 
