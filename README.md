@@ -22,10 +22,10 @@ This was developed during Bootcamp Week 5. Starter code was supplied for one eye
 >**Custom Features**:
 <ol>
     <li>Added 'blink' effect for mouse and mobile inputs</li>
-    <li>'Mouth' also moves with mobile and mouse inputs</li>
-    <li>Animated head will 'sleep' if mouse leaves the screen</li>
-    <li>Custom CSS to add a head, hair, and mouth to go with the eyes</li>
     <li>Added 'iris' image for a more realistic eye</li>
+    <li>Custom CSS to add a head, hair, and mouth to go with the eyes</li>
+    <li>Mouth also moves with mobile and mouse inputs</li>
+    <li>Animated head will 'sleep' if mouse leaves the screen</li>
     <li>Custom CSS 'typewriter' message</li>
 </ol>
 
