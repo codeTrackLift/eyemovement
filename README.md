@@ -25,6 +25,7 @@ This was developed during Bootcamp Week 5. Starter code was supplied for one eye
     <li>'Mouth' also moves with mobile and mouse inputs</li>
     <li>Animated head will 'sleep' if mouse leaves the screen</li>
     <li>Custom CSS to add a head, hair, and mouth to go with the eyes</li>
+    <li>Added 'iris' image for a more realistic eye</li>
     <li>Custom CSS 'typewriter' message</li>
 </ol>
 
@@ -34,7 +35,7 @@ This accepts mouse and mobile inputs.
 
 - Eyes will follow mouse cursor position.  
 - Eyes will blink and mouth will move with mouse click.
-- Head will 'sleep' if mouse cursor leaves the browser window.
+- Head will 'sleep' and 'typewriter' message is hidden if the mouse cursor leaves the browser window.
 
 >Mobile
 
