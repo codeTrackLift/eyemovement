@@ -7,13 +7,14 @@ body {
 .eyes {
   position: absolute;
   top: 50%;
+  left: 25%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 50%;
   text-align: center;
 }
 .eye {
-  width: 240px;
-  height: 120px;
+  width: 100px;
+  height: 60px;
   background: #fff;
   display: inline-block;
   margin: 40px;
@@ -22,8 +23,8 @@ body {
   overflow: hidden;
 }
 .ball {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: #000;
   position: absolute;
   top: 50%;
@@ -33,5 +34,6 @@ body {
 }
 
 .effect {
-    transform: skew(15deg, 15deg);
+    height: 0.5rem;
+    background-color: white;
 }

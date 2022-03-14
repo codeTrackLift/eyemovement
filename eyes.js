@@ -1,4 +1,5 @@
 var balls = document.getElementsByClassName("ball");
+var eyes = document.getElementsByClassName("eye");
 
 document.onmousemove = () => {
     var x = (event.clientX * 100) / window.innerWidth + "%";
@@ -11,37 +12,24 @@ document.onmousemove = () => {
     }
 };
 
-// document.ontouchmove = () => {
-//     var x = (event.clientX * 100) / window.innerWidth + "%";
-//     var y = (event.clientY * 100) / window.innerHeight + "%";
-
-//     for (let i = 0; i < 2; i++) {
-//         balls[i].style.left = x;
-//         balls[i].style.top = y;
-//         balls[i].transform = "translate(-" + x + ",-" + y + ")";
-//     }
-// };
-
 document.onmousedown = () => {
-    for (let i = 0; i < 2; i++) {
-        balls[i].classList.add('effect');
-    }
+    toggleEffect();
 }
 
 document.onmouseup = () => {
-    for (let i = 0; i < 2; i++) {
-        balls[i].classList.remove('effect');
-    }
+    toggleEffect();
 }
 
 document.ontouchstart = () => {
-    for (let i = 0; i < 2; i++) {
-        balls[i].classList.add('effect');
-    }
+    toggleEffect();
 }
 
 document.ontouchend = () => {
+    toggleEffect();
+}
+
+const toggleEffect = () => {
     for (let i = 0; i < 2; i++) {
-        balls[i].classList.remove('effect');
+        eyes[i].classList.toggle('effect');
     }
 }
