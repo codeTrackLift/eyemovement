@@ -170,6 +170,10 @@ img {
 h2 {
     width: fit-content;
 }
+
+h2>img {
+    border: 1px solid transparent;
+}
 h2:before,
 h2:after {
     content: "";
@@ -181,7 +185,7 @@ h2:after {
 
 h2::before {
     background: dimgray;
-    animation: write 3s steps(16) 0.5s alternate infinite;
+    animation: write 3s steps(17) 0.5s alternate infinite;
     /* Number of steps */
     width: 100%;
 }
@@ -190,7 +194,7 @@ h2::after {
     opacity: 1;
     width: 0.15em;
     background: black;
-    animation: write 3s steps(16) 0.5s alternate infinite, blink 0.75s steps(2) infinite;
+    animation: write 3s steps(17) 0.5s alternate infinite, blink 1s steps(2) infinite;
 }
 
 @keyframes write {
