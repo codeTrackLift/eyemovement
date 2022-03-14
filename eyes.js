@@ -13,23 +13,29 @@ document.onmousemove = () => {
 };
 
 document.onmousedown = () => {
-    toggleEffect();
+    addEffect();
 }
 
 document.onmouseup = () => {
-    toggleEffect();
+    removeEffect();
 }
 
 document.ontouchstart = () => {
-    toggleEffect();
+    addEffect();
 }
 
 document.ontouchend = () => {
-    toggleEffect();
+    removeEffect();
 }
 
-const toggleEffect = () => {
+const addEffect = () => {
     for (let i = 0; i < 2; i++) {
-        eyes[i].classList.toggle('effect');
+        eyes[i].classList.add('effect');
+    }
+}
+
+const removeEffect = () => {
+    for (let i = 0; i < 2; i++) {
+        eyes[i].classList.remove('effect');
     }
 }
