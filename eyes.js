@@ -11,14 +11,14 @@ document.onmousemove = () => {
     }
 };
 
-document.onmousedown = () => {
+document.onclick = () => {
     for (let i = 0; i < 2; i++) {
         balls[i].classList.add('effect');
     }
 }
 
-document.onmouseup = () => {
-    for (let i = 0; i < 2; i++) {
-        balls[i].classList.remove('effect');
-    }
-}
+// document.onmouseup = () => {
+//     for (let i = 0; i < 2; i++) {
+//         balls[i].classList.remove('effect');
+//     }
+// }
