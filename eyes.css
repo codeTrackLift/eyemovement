@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,23 +11,12 @@ body {
 
 .eyes {
     display: flex;
-    flex: 1;
-    position: fixed;
-    top: 50%;
-    /* width: 100%; */
+    justify-content: center;
+    align-content: bottom;
+    height: 60px;
     margin: 0 auto;
-    /* left: 20%; */
-    /* transform: translateY(-50%); */
-    transform: translate(20vw,-50%);
-    width: 100vw;
     text-align: center;
 }
-
-/* @media (orientation: landscape) {
-    .eyes {
-        left: 25vw;
-    }
-} */
 
 .eye {
     width: 100px;
@@ -34,6 +27,7 @@ body {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .ball {
@@ -48,6 +42,7 @@ body {
 }
 
 .effect {
-    height: 0.5rem;
+    height: 2px;
     background-color: white;
+    margin-top: 60px;
 }
