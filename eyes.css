@@ -29,11 +29,11 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .head {
         left: -40vw;
     }
-} */
+}
 
 /* .hair {
     position: fixed;
@@ -95,9 +95,9 @@ img {
 }
 
 .nose {
-    position: fixed;
-    margin-top: 100px;
-    margin-left: -45px;
+    /* position: relative; */
+    margin-top: 200px;
+    margin-left: -85px;
     width: 30px;
     height: 30px;
     background-color: gold;
@@ -107,7 +107,7 @@ img {
 }
 
 .mouth {
-    position: fixed;
+    /* position: fixed; */
     transform: rotate(52deg);
     margin-top: 137px;
     margin-left: -115px;
