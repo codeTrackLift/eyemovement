@@ -92,15 +92,15 @@ h2 {
     }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 575px) {
     .head {
-        top: -30px;
+        top: -40px;
     }
     #mouth {
-        top: 120px;
+        top: 110px;
     }
     #message {
-        top: 200px;
+        top: 190px;
     }
 }
 
