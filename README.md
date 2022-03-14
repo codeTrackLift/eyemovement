@@ -42,7 +42,11 @@ This accepts mouse and mobile inputs.
 - Eyes will blink and mouth will move with touch input
 
 ## Future Roadmap
-- [x] Integrate mouse events
+- [x] Integrate mouse click
+- [x] Integrate touch events
+- [x] Responsive web design
+- [x] Mobile compatible
 - [x] Custom styling
+- [x] Typewriter message
 
 This is a progression project, no further development is anticipated at this time.
