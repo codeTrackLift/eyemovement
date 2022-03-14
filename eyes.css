@@ -9,30 +9,44 @@ body {
     width: 100%;
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    margin: 25vh 65vw;
+    top: 10px;
+    left: -30vw;
+    width: 200px;
+    height: 160px;
+    border-radius: 80px / 40px;
+    background: gold;
+  }
+
 .eyes {
     display: flex;
     justify-content: center;
     align-content: bottom;
     height: 60px;
-    margin: 25vh auto;
+    /* margin: 25vh auto; */
     text-align: center;
 }
 
 .eye {
-    width: 100px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
     background: #fff;
     display: inline-block;
-    margin: 40px;
-    border-radius: 50%;
+    margin: 30px 10px;
+    border-radius: 35% 35% 50% 50%;
     position: relative;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .ball {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
