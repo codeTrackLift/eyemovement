@@ -1,5 +1,6 @@
 var balls = document.getElementsByClassName("ball");
 var eyes = document.getElementsByClassName("eye");
+var mouth = document.getElementById("mouth");
 
 document.onmousemove = () => {
     var x = (event.clientX * 100) / window.innerWidth + "%";
@@ -32,10 +33,12 @@ const addEffect = () => {
     for (let i = 0; i < 2; i++) {
         eyes[i].classList.add('effect');
     }
+    mouth.classList.toggle('talking');
 }
 
 const removeEffect = () => {
     for (let i = 0; i < 2; i++) {
         eyes[i].classList.remove('effect');
     }
+    mouth.classList.toggle('talking');
 }
