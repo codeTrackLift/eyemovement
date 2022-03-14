@@ -94,23 +94,17 @@ img {
     margin-top: 60px;
 }
 
-.nose {
-    /* position: relative; */
-    margin-top: 200px;
-    margin-left: -85px;
-    width: 30px;
+/* .nose {
+    width: 20px;
     height: 30px;
     background-color: gold;
     border-radius: 50% 10% 50% 10%;
     transform: rotate(5deg);
     box-shadow: goldenrod 0px 3px 8px;
-}
+} */
 
 .mouth {
-    /* position: fixed; */
     transform: rotate(52deg);
-    margin-top: 137px;
-    margin-left: -115px;
     width: 50px;
     height: 11px;
     background-color: black;
