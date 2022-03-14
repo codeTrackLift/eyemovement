@@ -11,14 +11,26 @@ document.onmousemove = () => {
     }
 };
 
-document.onclick = () => {
+document.onmousedown = () => {
     for (let i = 0; i < 2; i++) {
         balls[i].classList.add('effect');
     }
 }
 
-// document.onmouseup = () => {
-//     for (let i = 0; i < 2; i++) {
-//         balls[i].classList.remove('effect');
-//     }
-// }
+document.onmouseup = () => {
+    for (let i = 0; i < 2; i++) {
+        balls[i].classList.remove('effect');
+    }
+}
+
+document.ontouchstart = () => {
+    for (let i = 0; i < 2; i++) {
+        balls[i].classList.add('effect');
+    }
+}
+
+document.ontouchend = () => {
+    for (let i = 0; i < 2; i++) {
+        balls[i].classList.remove('effect');
+    }
+}
