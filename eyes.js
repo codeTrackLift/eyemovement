@@ -1,6 +1,7 @@
 var balls = document.getElementsByClassName("ball");
 var eyes = document.getElementsByClassName("eye");
 var mouth = document.getElementById("mouth");
+var message = document.getElementById('message');
 
 document.onmousemove = () => {
     var x = (event.clientX * 100) / window.innerWidth + "%";
@@ -27,6 +28,17 @@ document.ontouchstart = () => {
 
 document.ontouchend = () => {
     removeEffect();
+}
+
+document.onmouseleave = () => {
+    addEffect();
+    mouth.classList.remove('talking');
+    message.style.opacity = 0;
+}
+
+document.onmouseenter = () => {
+    removeEffect();
+    message.style.opacity = 1;
 }
 
 const addEffect = () => {

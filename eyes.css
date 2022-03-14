@@ -169,6 +169,7 @@ img {
 /* Typewriter CSS below*/
 h2 {
     width: fit-content;
+    transition: all 0.25s ease-in-out;
 }
 
 h2>img {
