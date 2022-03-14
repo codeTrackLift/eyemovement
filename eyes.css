@@ -23,10 +23,16 @@ body {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+    font-family: Menlo Regular;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 .head {
     display: flex;
     justify-content: center;
-    text-align: center;
     position: fixed;
     margin: 25vh 65vw;
     top: 10px;
@@ -56,13 +62,35 @@ body {
     transform: translateY(0px);
 }
 
+#message {
+    position: fixed;
+    margin: 25vh 65vw;
+    top: 240px;
+    left: -12rem;
+    width: max-content;
+}
+
 @media (max-width: 500px) {
     .head {
         left: -10rem;
     }
-
     #mouth {
         left: -5rem;
+    }
+    #message {
+        left: -8rem;
+    }
+}
+
+@media (max-height: 400px) {
+    .head {
+        top: -30px;
+    }
+    #mouth {
+        top: 120px;
+    }
+    #message {
+        top: 180px;
     }
 }
 
@@ -118,27 +146,6 @@ img {
     background-color: white;
     margin-top: 60px;
 }
-
-/* .nose {
-    width: 20px;
-    height: 30px;
-    background-color: gold;
-    border-radius: 50% 10% 50% 10%;
-    transform: rotate(5deg);
-    box-shadow: goldenrod 0px 3px 8px;
-} */
-
-/* .hair {
-    position: fixed;
-    transform: rotate(50deg);
-    margin-top: 20px;
-    margin-left: 150px;
-    width: 130px;
-    height: 35px;
-    background-color: black;
-    border-radius: 50% 50% 10px 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} */
 
 footer {
     position: absolute;
