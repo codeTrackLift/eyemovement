@@ -1,4 +1,4 @@
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Eye Movement Project
+# <img src='https://codetracklift.github.io/codeTrackLift/logos/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Eye Movement Project
 
 <img src='https://www.codebypete.com/pics/projects/animatedHead.gif' alt='animated head gif' width='50'> ***Try Demo:*** [https://codetracklift.github.io/eyemovement](https://codetracklift.github.io/eyemovement/) <img src='./oneeye.png' width='30'>
 
